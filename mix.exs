@@ -42,8 +42,8 @@ defmodule Absinthe.Plug.Mixfile do
 
   defp deps do
     [
-      {:absinthe, "~> 1.5"},
-      {:plug, "~> 1.4"},
+      {:absinthe, "~> 1.6"},
+      {:plug, "~> 1.12"},
       {:jason, ">= 0.0.0", only: [:dev, :test]},
       {:ex_doc, "~> 0.20", only: :dev}
     ]
